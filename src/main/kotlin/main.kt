@@ -1,4 +1,5 @@
-import commands.Shout
+import com.rchowell.kosch.Shell
+import com.rchowell.kosch.commands.Shout
 
 const val banner = """
  __  __  ______  ______  ______  __  __    

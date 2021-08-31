@@ -1,3 +1,5 @@
+package com.rchowell.kosch
+
 import java.lang.StringBuilder
 
 /**

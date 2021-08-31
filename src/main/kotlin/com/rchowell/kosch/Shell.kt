@@ -1,4 +1,4 @@
-
+package com.rchowell.kosch
 import org.apache.commons.cli.CommandLine
 import org.apache.commons.cli.DefaultParser
 import java.util.Scanner
@@ -27,7 +27,7 @@ class Shell(
             print("> ")
             when (val input = scanner.nextLine()) {
                 "exit" -> exit = true
-                "clear" -> clear()
+                "com.rchowell.kosch.clear" -> clear()
                 else -> {
                     val args = splitArgs(input)
                     val command = cmds[args[0]]

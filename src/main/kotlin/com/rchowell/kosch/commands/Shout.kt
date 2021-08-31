@@ -1,7 +1,7 @@
-package commands
+package com.rchowell.kosch.commands
 
-import Command
-import Opt
+import com.rchowell.kosch.Command
+import com.rchowell.kosch.Opt
 import org.apache.commons.cli.CommandLine
 import java.lang.IllegalArgumentException
 

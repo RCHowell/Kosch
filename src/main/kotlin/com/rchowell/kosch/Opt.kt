@@ -1,7 +1,9 @@
+package com.rchowell.kosch
+
 import org.apache.commons.cli.Option
 
 /**
- * Opt is Kotlin wrapper of the Apache Commons CLI [Option] class.
+ * com.rchowell.kosch.Opt is Kotlin wrapper of the Apache Commons CLI [Option] class.
  *
  * @property alias
  * @property name

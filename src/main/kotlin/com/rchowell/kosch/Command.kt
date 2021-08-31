@@ -1,10 +1,12 @@
+package com.rchowell.kosch
+
 import org.apache.commons.cli.CommandLine
 import org.apache.commons.cli.Options
 
 /**
- * Shell Command
+ * Shell com.rchowell.kosch.Command
  *
- * @constructor Create empty Command
+ * @constructor Create empty com.rchowell.kosch.Command
  */
 abstract class Command {
 
