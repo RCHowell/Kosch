@@ -7,6 +7,7 @@ import java.lang.IllegalArgumentException
 
 class Shout : Command() {
 
+    override val name = "shout"
     override val help = "shouts the input text"
     override val opts = listOf(
         Opt(

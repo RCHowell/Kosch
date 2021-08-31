@@ -9,6 +9,11 @@ import org.apache.commons.cli.Options
 abstract class Command {
 
     /**
+     * The command's name
+     */
+    abstract val name: String
+
+    /**
      * Simple help text for the command
      */
     abstract val help: String
