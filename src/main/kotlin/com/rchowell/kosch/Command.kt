@@ -26,9 +26,9 @@ abstract class Command {
     abstract val opts: List<Opt>
 
     /**
-     * Runs this command with some environment and args
+     * Command execution
      */
-    abstract fun run(env: Any, args: CommandLine)
+    abstract fun run(args: CommandLine)
 
     val options: Options
         get() {
