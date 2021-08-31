@@ -30,11 +30,3 @@ compileKotlin {
 compileTestKotlin {
     kotlinOptions.jvmTarget = '1.8'
 }
-
-application {
-    mainClassName = 'MainKt'
-}
-
-run {
-    standardInput = System.in
-}

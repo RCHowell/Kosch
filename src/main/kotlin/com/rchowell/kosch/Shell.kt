@@ -37,7 +37,7 @@ class Shell(
                     }
                     try {
                         val line: CommandLine = parser.parse(command.options, args.toTypedArray())
-                        command.run({}, line)
+                        command.run(line)
                     } catch (e: Exception) {
                         println("Error: $e")
                     }
